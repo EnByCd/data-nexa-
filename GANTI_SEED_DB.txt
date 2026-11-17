@@ -1,0 +1,13 @@
+  reports: [],
+  cleanup_tasks: [],
+  flood_response_logs: [],
+  bpbd_posts: [], // diisi otomatis dari BPBD oleh liveData.js
+  bmkg_forecast: {
+    station: null,
+    province: "DKI Jakarta",
+    current_condition: null,
+    active_warning: { is_active: false },
+    intervals: []
+  },
+  telegram_messages: []
+};
